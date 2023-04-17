@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="stylesheet" href="/Kunal/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="/Kunal/images/logo.png" alt="logo"></a>
+                </div>
+                <div class="navbar-items">
+                    <div class="dropdown">
+                        <button class="dropbtn">Explore</button>
+                        <div class="dropdown-content">
+                          <a href="#">Nature</a>
+                          <a href="/Jyoti/explore1.html">Heritage</a>
+                          <a href="#">Wildlife</a>
+                        </div>
+                      </div>
+                      <div class="dropdown">
+                        <button class="dropbtn"><a href="/jayesh/review.html">Review</a></button>
+                      </div>
+                      <div class="dropdown">
+                        <button class="dropbtn"><a href="/jayesh/blog.html">Blog</a></button>
+                      </div>
+                      <div class="dropdown">
+                        <button class="dropbtn">Plan your trip</button>
+                        <div class="dropdown-content">
+                          <a href="/Jyoti/accomodation.html">Accomodation</a>
+                          <a href="/Jyoti/travelAgent.html">Travel Agents & Guides</a>
+                        </div>
+                      </div>
+                      <div class="dropdown">
+                        <button class="dropbtn"><a href="/Kunal/html/search.html">Search</a></button>
+                      </div>
+                      <div class="dropdown">
+                        <button class="dropbtn"><i class="fa-solid fa-user"></i></button>
+                        <div class="dropdown-content">
+                          <a href="/Kunal/html/login.html">Member login</a>
+                          <a href="/Kunal/html/signup.html">New User?</a>
+                        </div>
+                      </div>
+                </div>
+            </div>    
+        </nav>
+    </header>
+    <div class="container">
+        <div class="home-video">
+             <video autoplay muted loop id="myVideo">
+                <source src="/Kunal/videos/mainvideo.mp4" type="video/mp4">
+              </video> 
+        </div>
+        <div class="container-body">
+            <div class="img-div">
+                <div class="image1">
+                    <a href=""><img src="/Kunal/images/pic1.png" alt=""></a>
+                </div>
+                <div class="plan-form">
+                    
+                    <h3><i class="fa-solid fa-map-location-dot"></i> Plan your trip</h3>
+                    <h5>Days of travel</h5>
+                    <input type="range" id="cowbell" name="cowbell" min="0" max="10" value="0" step="1" class="slider">
+                    <br>
+                    <select >
+                        <option class="main" value="0" selected="" disabled="">Travel Starting Point (City)</option>
+                        <option value="Bhopal">Bhopal</option>
+                        <option value="Gwalior">Gwalior</option>
+                        <option value="Hanuwantiya">Hanuwantiya</option>
+                        <option value="Indore">Indore</option>
+                        <option value="Jabalpur">Jabalpur</option>
+                        <option value="Kanha">Kanha</option>
+                        <option value="Madhai">Madhai</option>
+                        <option value="Nagpur">Nagpur</option>
+                        <option value="Pench">Pench</option>
+                        <option value="Ujjain">Ujjain</option>
+                    </select>
+                    <select>
+                        <option class="main" >Select Travel Month</option>
+                        <option>January</option>
+                        <option>February</option>
+                        <option>March</option>
+                        <option>April</option>
+                        <option>May</option>
+                        <option>June</option>
+                        <option>July</option>
+                        <option>August</option>
+                        <option>September</option>
+                        <option>October</option>
+                        <option>November</option>
+                        <option>December</option>
+                     </select>
+                   
+                       <h5>Select Travel Theme</h5>
+                       <input style="margin-left: 0px;" type="checkbox" name="check_list[]" value="Adventure"><span class="checkboxinput">Adventure</span> 
+                        <input type="checkbox" name="check_list[]" value="Heritage"><span class="checkboxinput">Heritage</span> 
+                        <input type="checkbox" name="check_list[]" value="Nature"><span class="checkboxinput">Nature</span> 
+                        <input type="checkbox" name="check_list[]" value="Spiritual"><span class="checkboxinput">Spiritual</span> 
+                        <input type="checkbox" name="check_list[]" value="Wildlife"><span class="checkboxinput">Wildlife</span> 
+                     <br>
+                   <button type="submit" class="plan-form-bt">Search</button>
+                </div>
+                <div class="image2">
+                    <a href=""><img src="/Kunal/images/pic2.png" alt=""></a>
+                </div>
+                <div class="image3">
+                    <a href=""><img src="/Kunal/images/pic3.png" alt=""></a>
+                </div>
+                <div class="image4">
+                    <a href=""><img src="/Kunal/images/pic4.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="container-body1">
+            <h3>SOCIAL FEEDS</h3>
+            <div class="social-images">
+                <div class="so-images">
+                    <a href="https://www.instagram.com/p/B9tEncWgquO/"><img src="/Kunal/images/so-div1.png" alt=""></a>
+                </div>
+                <div class="so-images">
+                    <a href="https://twitter.com/MPTourism/status/1163728733733179392"><img src="/Kunal/images/so-div2.png" alt=""></a>
+                </div>
+                <div class="so-images">
+                    <a href="https://twitter.com/MPTourism/status/1240204710952361985"><img src="/Kunal/images/so-div3.png" alt=""></a>
+                </div>
+                <div class="so-images">
+                    <a href="https://www.instagram.com/p/B8qzbZygGnM/"><img src="/Kunal/images/so-div4.png" alt=""></a>
+                </div>
+                <div class="so-images">
+                    <a href="https://twitter.com/Asiasworld1/status/650868783968456704/photo/1"><img src="/Kunal/images/so-div5.png" alt=""></a>
+                </div>
+                <div class="so-images6">
+                    <a href="https://twitter.com/MPTourism/status/1242406883937275904"><img src="/Kunal/images/so-div6.png" alt=""></a>
+                </div>
+                <div class="so-images">
+                    <a href="https://www.instagram.com/p/B_UTU4NgiKj/"><img src="/Kunal/images/so-div7.png" alt=""></a>
+                </div>
+                <div class="so-images">
+                    <a href="https://www.instagram.com/p/B8GHE7Ggqp_/"><img src="/Kunal/images/so-div8.png" alt=""></a>
+                </div>
+                <div class="so-images">
+                    <a href="https://twitter.com/MPTourism/status/1228260595176103936"><img src="/Kunal/images/so-div9.png" alt=""></a>
+                </div>
+                <div class="so-images">
+                    <a href="https://www.instagram.com/p/B5sH0mdoq3r/"><img src="/Kunal/images/so-div10.png" alt=""></a>
+                </div>
+                <div class="so-images">
+                    <a href="https://www.instagram.com/p/B8T6uycAnZf/"><img src="/Kunal/images/so-div11.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="footer-div">
+            <div class="footer-logo">
+                <img src="/Kunal/images/logo.png" alt="">
+            </div>
+            <div class="footer-qlink">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li>
+                        <a href="">Explore</a>
+                    </li>
+                    <li>
+                        <a href="">Expirence</a>
+                    </li>
+                    <li>
+                        <a href="">Blog</a>
+                    </li>
+                    <li>
+                        <a href="">Search</a>
+                    </li>
+                    <li>
+                        <a href="">Plan your trip</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-help">
+                <h4>Help and Support</h4>
+                <p>1800-233-7777</p>
+                <p>Monday to Friday (10:00 AM to 6:00 PM)
+                    Saturday and other Holidays (10:00 AM to 2:00 PM)
+                    Sunday - Holiday</p>
+                <p>For feedback & suggestions mail us at:
+                    suggestions.mptb@mp.gov.in</p>
+                <p>Incredible India Tourist Infoline -
+                    1800-11-1363 (24x7) (Toll Free)
+                    Available in - Hindi, English, French, German, Spanish, Portuguese, Italian, Russian, Korean, Japanese, Chinese
+                    and Arabic.</p>
+            </div>
+            <div class="footer-address">
+                <h4>Address</h4>
+                <p>6th Floor, Lily Trade Wing,</p>
+                <p>(Behind D Mart),</p>
+                <p>Jehangirabad, Bhopal,</p>
+                <p>Madhya Pradesh 462008</p>
+            </div>
+        </div>
+        <div class="footer-socialmedia">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </footer>
+</body>
+</html>

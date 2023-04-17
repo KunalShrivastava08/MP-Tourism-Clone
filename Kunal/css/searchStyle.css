@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NavBar */
+.navbar {
+    height: 10vh;
+    width: 100vw;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    background-color: transparent;
+}
+
+.logo {
+    width: 8%;
+    height: 300%;
+    position: relative;
+    left: 50px;
+    top: 38px;
+}
+
+.navbar-items {
+    /* background-color: rebeccapurple; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: solid red;
+}
+
+.dropbtn a {
+    color: #8d0000;
+}
+
+.dropbtn {
+    background-color: transparent;
+    color: #8d0000;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.logo img {
+    height: 85%;
+    width: 85%;
+}
+
+.logo {
+    width: 8%;
+    height: 300%;
+    position: relative;
+    left: 50px;
+    top: 38px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #8d000079;
+}
+
+#planyourtrip {
+    width: 127px;
+}
+
+
+
+
+
+
+/* Footer */
+.footer-div {
+    height: 50vh;
+    width: 100vw;
+    background-image: linear-gradient(#8d000071, #8d00008f), url('/Kunal/images/Footer_bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 100vh;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    padding-top: 2%;
+}
+
+.footer-div div {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-div img {
+    height: 98%;
+    width: 70%;
+}
+
+.footer-help {
+    margin-left: -10%;
+    margin-right: 5%;
+}
+
+.footer-help p {
+    margin-top: 5%;
+}
+
+.footer-address p {
+    margin-top: 5%;
+}
+
+.footer-socialmedia {
+    height: 7%;
+    width: 20%;
+    position: absolute;
+    bottom: -45%;
+    left: 70%;
+}
+
+.footer-socialmedia a {
+    border: 1px solid black;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    color: #8d0000;
+}
+
+.footer-qlink ul a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-qlink ul li {
+    margin-top: 5%;
+}
+
+.footer-qlink ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.footer-logo {
+    position: relative;
+    top: -9%;
+    height: 50vh;
+}
+
+/* Contanir */
+.container {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    top: 0;
+    background-color: #F5F4F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* Signup form */
+.ser-triger {
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    color: #da202c;
+}
+input {
+    background: transparent;
+    border: none;
+    border-radius: 0px;
+    color: #535353;
+    font-size: 65px;
+    /* font-weight: 700; */
+    font-family: 'alegreya_sansbold';
+    border-bottom: #959595 2px solid;
+}
+input:focus {
+    outline: none;
+}
